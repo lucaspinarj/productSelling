@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Karla";
+    src: url(font/Karla/Karla-VariableFont_wght.ttf);
+}
+
+*{
+    font-family: Karla;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/tactile_noise.webp);
+    background-repeat: repeat;
+}
+
+@media screen {
+    .main{
+        background-color: white;
+        width: 80vh;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.9);
+        border-radius: 5px;
+        border: 0px;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-rows: 2;
+    }
+
+    .rec1{
+        flex-direction: column;
+        flex: 2;
+        padding: 20px;
+        padding-left: 50px;
+        padding-bottom: 40px;
+    }
+    .title1{
+        font-size: 30px;
+        font-weight: 900;
+        color: rgb(30, 30, 30);
+    }
+    .par1-1{
+        font-size: 20px;
+        font-weight: 700;
+        color: rgb(150, 159, 129);
+    }
+    .par1-2{
+        color: rgb(90, 90, 90);
+    }
+    .rec23{
+        background-color: rgb(60, 60, 60);
+        border-radius: 5px;
+        overflow: hidden;
+        padding: 0px;
+        border: 0px;
+    }
+
+    .rec2{
+        background-color: rgb(30, 30, 30);
+        background-size: 1000px;
+        padding: 25px;
+        padding-left: 40px;
+        padding-right: 100px;
+        padding-bottom: 50px;
+        border-bottom-left-radius: 5px;
+        float: left;
+        flex-direction: column;
+        flex:1;
+    }
+    .title2{
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+    }
+    .price{
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+    }
+    .period{
+        color: rgba(255, 255, 255, 0.1);
+        vertical-align: super;
+    }
+    .par2-1{
+        color: white;
+    }
+    .btn{
+        background-color: rgb(150, 160, 130);
+        color: white;
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+    }
+    .rec3{
+        background-color: rgb(60, 60, 60);
+        padding: 25px;
+        padding-left: 60px;
+        padding-right: 100px;
+        border-bottom-left-radius: 5px;
+        float: left;
+        flex-direction: column;
+        flex:1;
+    }
+    .title3{
+        font-size: 20px;
+        font-weight: 700;
+        color: rgba(255, 255, 255, 0.7);
+        padding-left: 5px;
+    }
+    .par3-1{
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+}
