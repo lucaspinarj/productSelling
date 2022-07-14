@@ -15,7 +15,7 @@ body {
 
 }
 
-@media screen{
+@media screen {
     .main {
         display: grid;
         grid-template-rows: 1fr;
@@ -24,37 +24,119 @@ body {
         top: 50%;
         -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
-        width: 200px;
-        min-width: 60%;
+        width: 75%;
+        height: auto;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
     }
 
     .part1 {
         background-color: white;
-        padding-top: 20px;
-        padding-left: 40px;
+        padding: 20px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
     }
 
-    @media (max-width: 800px) {
-        .part2 {
-            display: grid;
-        }
+    .title1 {
+        font-size: 20px;
+        font-weight: 900;
+        color: rgb(40, 40, 40);
+    }
+
+    .p1 {
+        font-size: 16px;
+        font-weight: 900;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: rgb(173, 180, 158);
+    }
+
+    .p1-2 {
+        font-size: 14px;
+        text-align: justify;
+        line-height: 24px;
+        font-weight: 500;
+        color: rgb(60, 60, 60);
     }
 
     .part2-1 {
         background-color: rgb(40, 40, 40);
         color: white;
         padding: 20px;
+        display: grid;
+    }
+
+    .title2 {
+        font-size: 25px;
+        font-weight: 900;
+    }
+
+    .price {
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .period {
+        color: rgb(60, 60, 60);
+        vertical-align: super;
+    }
+    .p2-1{
+        padding-top: 10px;
+        padding-bottom: 25px;
+    }
+
+    .btn0 {
+        display: grid;
+        align-content: stretch;
+        align-items: stretch;
+        justify-items: stretch;
+        padding: 10px;
+    }
+
+    .btn1 {
+        background-color: rgb(173, 180, 158);
+        color: white;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+        padding: 18px;
+        border: 0px;
+    }
+    .btn1:hover {
+        cursor: pointer;
+        background-color: rgba(173, 180, 158, 0.8);
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .btn1:active {
+        background-color: rgb(173, 180, 158, 0.3);
+        color: rgba(255, 255, 255, 0.3);
     }
 
     .part2-2 {
         background-color: rgb(60, 60, 60);
-        color: white;
-        padding: 20px;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        padding-left: 30px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .title3 {
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    .par2-2 {
+        font-size: 14px;
+        font-weight: 100;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 0.6);
     }
 }
 
-@media (min-width: 800px) {
-    .part2 {
+@media (min-width: 988px) {
+    .main{
+        width: 40%;
+    }
+    .part2{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
