@@ -50,7 +50,7 @@ body {
         padding-bottom: 5px;
     }
 
-    .p1-2 {
+    .intro {
         color: rgb(60, 60, 60);
         font-size: 14px;
         text-align: justify;
@@ -58,7 +58,7 @@ body {
         font-weight: normal;
     }
 
-    .part2-1 {
+    .block1 {
         background-color: rgb(40, 40, 40);
         color: white;
         padding: 20px;
@@ -75,12 +75,12 @@ body {
         vertical-align: super;
     }
 
-    .p2-1 {
+    .p2 {
         padding-top: 10px;
         padding-bottom: 25px;
     }
 
-    .btn0 {
+    .btn-place {
         display: grid;
         align-content: stretch;
         align-items: stretch;
@@ -88,7 +88,7 @@ body {
         padding: 10px;
     }
 
-    .btn1 {
+    .btn {
         background-color: rgb(173, 180, 158);
         color: white;
         padding: 18px;
@@ -97,18 +97,18 @@ body {
         box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
     }
 
-    .btn1:hover {
+    .btn:hover {
         background-color: rgba(173, 180, 158, 0.8);
         color: rgba(255, 255, 255, 0.8);
         cursor: pointer;
     }
 
-    .btn1:active {
+    .btn:active {
         background-color: rgb(173, 180, 158, 0.3);
         color: rgba(255, 255, 255, 0.3);
     }
 
-    .part2-2 {
+    .block2 {
         background-color: rgb(60, 60, 60);
         color: rgb(255, 255, 255);
         padding: 10px;
@@ -117,7 +117,7 @@ body {
         border-bottom-right-radius: 5px;
     }
 
-    .par2-2 {
+    .p3 {
         color: rgba(255, 255, 255, 0.6);
         font-size: 14px;
         font-weight: thin;
@@ -137,7 +137,7 @@ body {
         grid-template-columns: 1fr 1fr;
     }
 
-    .part2-2 {
+    .block2 {
         border-bottom-left-radius: 0px;
     }
 }
