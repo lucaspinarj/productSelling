@@ -5,4 +5,6 @@ This is obviously inspiration to studying html/css features, responsive design, 
 
 Integrated mobile first into the project.
 
-The button is now functional and the website looks amazing!
+The button is functional and the website looks amazing!
+
+For demo version reasons I'm not implementing javascript file yet. There is no real product to be shown since this is a showcase project. IF the need comes, I will create it, but for now, the functionability of the button is simple on purpose.
